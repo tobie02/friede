@@ -2,8 +2,6 @@ from os import system
 from time import *
 import os
 
-TOKEN = '2006904933:AAEMcjtXkNfQsmZW6IrLzc2rCvSWHsVj_NU'
-
 if __name__ == '__main__':
     print("""
     ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░

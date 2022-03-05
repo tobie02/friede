@@ -16,11 +16,11 @@ from telebot import types
 from subprocess import check_output
 from youtube_dl import YoutubeDL
 from urllib import parse, request
-from friede import TOKEN
+from keys import TOKEN, OPENAI
 
 bot = telebot.TeleBot(TOKEN)
 
-openai.api_key = "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"
+openai.api_key = OPENAI
 
 start_sequence = "\nAI:"
 restart_sequence = "\nHuman: "

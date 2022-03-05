@@ -4,7 +4,7 @@ import os
 import cv2
 import time
 import datetime
-from friede import TOKEN
+from keys import TOKEN
 
 bot = telebot.TeleBot(TOKEN)
 
