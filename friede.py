@@ -18,5 +18,3 @@ if __name__ == '__main__':
     except:
         print('Execute the installer first.')
         sleep(15) 
-
-#well shit
